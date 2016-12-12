@@ -1,18 +1,18 @@
 [
     {
-        "merged": "E:\\AndroidProject\\rookieandroid\\photoView_library\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "E:\\AndroidProject\\rookieandroid\\photoView_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "E:\\AndroidProject\\RookieAndroid\\photoView_library\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "E:\\AndroidProject\\RookieAndroid\\photoView_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "E:\\AndroidProject\\rookieandroid\\photoView_library\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "E:\\AndroidProject\\rookieandroid\\photoView_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "E:\\AndroidProject\\RookieAndroid\\photoView_library\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "E:\\AndroidProject\\RookieAndroid\\photoView_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "E:\\AndroidProject\\rookieandroid\\photoView_library\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "E:\\AndroidProject\\rookieandroid\\photoView_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout-v21\\notification_action.xml"
+        "merged": "E:\\AndroidProject\\RookieAndroid\\photoView_library\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "E:\\AndroidProject\\RookieAndroid\\photoView_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "E:\\AndroidProject\\rookieandroid\\photoView_library\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "E:\\AndroidProject\\rookieandroid\\photoView_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "E:\\AndroidProject\\RookieAndroid\\photoView_library\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "E:\\AndroidProject\\RookieAndroid\\photoView_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout-v21\\notification_action_tombstone.xml"
     }
 ]

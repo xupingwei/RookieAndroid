@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/RookieAndroid.iml" filepath="$PROJECT_DIR$/RookieAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/asynchttplibs/asynchttplibs.iml" filepath="$PROJECT_DIR$/asynchttplibs/asynchttplibs.iml" />
       <module fileurl="file://$PROJECT_DIR$/photoView_library/photoView_library.iml" filepath="$PROJECT_DIR$/photoView_library/photoView_library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rookieandroid.iml" filepath="$PROJECT_DIR$/rookieandroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingmenu/slidingmenu.iml" filepath="$PROJECT_DIR$/slidingmenu/slidingmenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/v7appcompat/v7appcompat.iml" filepath="$PROJECT_DIR$/v7appcompat/v7appcompat.iml" />
     </modules>
   </component>

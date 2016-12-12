@@ -1,1 +1,2 @@
 include ':app', ':v7appcompat', ':asynchttplibs', ':photoView_library'
+include ':slidingmenu'

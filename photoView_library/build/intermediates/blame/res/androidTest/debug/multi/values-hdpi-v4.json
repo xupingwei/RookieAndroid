@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\AndroidProject\\rookieandroid\\photoView_library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "outputFile": "E:\\AndroidProject\\RookieAndroid\\photoView_library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "E:\\AndroidProject\\rookieandroid\\photoView_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "file": "E:\\AndroidProject\\RookieAndroid\\photoView_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\AndroidProject\\RookieAndroid\\slidingmenu\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1092,
+                    "endColumn": 42,
+                    "endOffset": 1130
+                },
+                "from": {
+                    "file": "E:\\AndroidProject\\RookieAndroid\\slidingmenu\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 42,
+                        "endOffset": 95
+                    }
+                }
+            }
+        ]
+    }
+]

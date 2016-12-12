@@ -1,0 +1,290 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* LICENSE.txt
+* build\
+* build\generated\
+* build\generated\source\
+* build\generated\source\buildConfig\
+* build\generated\source\buildConfig\androidTest\
+* build\generated\source\buildConfig\androidTest\debug\
+* build\generated\source\buildConfig\androidTest\debug\com\
+* build\generated\source\buildConfig\androidTest\debug\com\jeremyfeinstein\
+* build\generated\source\buildConfig\androidTest\debug\com\jeremyfeinstein\slidingmenu\
+* build\generated\source\buildConfig\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\
+* build\generated\source\buildConfig\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\test\
+* build\generated\source\buildConfig\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\test\BuildConfig.java
+* build\generated\source\buildConfig\debug\
+* build\generated\source\buildConfig\debug\com\
+* build\generated\source\buildConfig\debug\com\jeremyfeinstein\
+* build\generated\source\buildConfig\debug\com\jeremyfeinstein\slidingmenu\
+* build\generated\source\buildConfig\debug\com\jeremyfeinstein\slidingmenu\lib\
+* build\generated\source\buildConfig\debug\com\jeremyfeinstein\slidingmenu\lib\BuildConfig.java
+* build\generated\source\buildConfig\release\
+* build\generated\source\buildConfig\release\com\
+* build\generated\source\buildConfig\release\com\jeremyfeinstein\
+* build\generated\source\buildConfig\release\com\jeremyfeinstein\slidingmenu\
+* build\generated\source\buildConfig\release\com\jeremyfeinstein\slidingmenu\lib\
+* build\generated\source\buildConfig\release\com\jeremyfeinstein\slidingmenu\lib\BuildConfig.java
+* build\generated\source\r\
+* build\generated\source\r\androidTest\
+* build\generated\source\r\androidTest\debug\
+* build\generated\source\r\androidTest\debug\com\
+* build\generated\source\r\androidTest\debug\com\jeremyfeinstein\
+* build\generated\source\r\androidTest\debug\com\jeremyfeinstein\slidingmenu\
+* build\generated\source\r\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\
+* build\generated\source\r\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\R.java
+* build\generated\source\r\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\test\
+* build\generated\source\r\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\test\R.java
+* build\generated\source\r\debug\
+* build\generated\source\r\debug\com\
+* build\generated\source\r\debug\com\jeremyfeinstein\
+* build\generated\source\r\debug\com\jeremyfeinstein\slidingmenu\
+* build\generated\source\r\debug\com\jeremyfeinstein\slidingmenu\lib\
+* build\generated\source\r\debug\com\jeremyfeinstein\slidingmenu\lib\R.java
+* build\generated\source\r\release\
+* build\generated\source\r\release\com\
+* build\generated\source\r\release\com\jeremyfeinstein\
+* build\generated\source\r\release\com\jeremyfeinstein\slidingmenu\
+* build\generated\source\r\release\com\jeremyfeinstein\slidingmenu\lib\
+* build\generated\source\r\release\com\jeremyfeinstein\slidingmenu\lib\R.java
+* build\intermediates\
+* build\intermediates\bundles\
+* build\intermediates\bundles\debug\
+* build\intermediates\bundles\debug\AndroidManifest.xml
+* build\intermediates\bundles\debug\R.txt
+* build\intermediates\bundles\debug\aapt\
+* build\intermediates\bundles\debug\aapt\AndroidManifest.xml
+* build\intermediates\bundles\debug\classes.jar
+* build\intermediates\bundles\debug\res\
+* build\intermediates\bundles\debug\res\layout\
+* build\intermediates\bundles\debug\res\layout\slidingmenumain.xml
+* build\intermediates\bundles\debug\res\values\
+* build\intermediates\bundles\debug\res\values\values.xml
+* build\intermediates\bundles\release\
+* build\intermediates\bundles\release\AndroidManifest.xml
+* build\intermediates\bundles\release\R.txt
+* build\intermediates\bundles\release\aapt\
+* build\intermediates\bundles\release\aapt\AndroidManifest.xml
+* build\intermediates\bundles\release\classes.jar
+* build\intermediates\bundles\release\res\
+* build\intermediates\bundles\release\res\layout\
+* build\intermediates\bundles\release\res\layout\slidingmenumain.xml
+* build\intermediates\bundles\release\res\values\
+* build\intermediates\bundles\release\res\values\values.xml
+* build\intermediates\classes\
+* build\intermediates\classes\androidTest\
+* build\intermediates\classes\androidTest\debug\
+* build\intermediates\classes\androidTest\debug\com\
+* build\intermediates\classes\androidTest\debug\com\jeremyfeinstein\
+* build\intermediates\classes\androidTest\debug\com\jeremyfeinstein\slidingmenu\
+* build\intermediates\classes\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\
+* build\intermediates\classes\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\R$attr.class
+* build\intermediates\classes\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\R$id.class
+* build\intermediates\classes\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\R$layout.class
+* build\intermediates\classes\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\R$styleable.class
+* build\intermediates\classes\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\R.class
+* build\intermediates\classes\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\test\
+* build\intermediates\classes\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\test\BuildConfig.class
+* build\intermediates\classes\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\test\R$attr.class
+* build\intermediates\classes\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\test\R$id.class
+* build\intermediates\classes\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\test\R$layout.class
+* build\intermediates\classes\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\test\R$styleable.class
+* build\intermediates\classes\androidTest\debug\com\jeremyfeinstein\slidingmenu\lib\test\R.class
+* build\intermediates\classes\debug\
+* build\intermediates\classes\debug\com\
+* build\intermediates\classes\debug\com\jeremyfeinstein\
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\BuildConfig.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$1.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$2.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$3.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$4.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$5.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$6.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$1.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$2.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$OnPageChangeListener.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$SimpleOnPageChangeListener.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\CustomViewBehind.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\MenuInterface.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\R$attr.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\R$id.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\R$layout.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\R$styleable.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\R.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$1.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$2.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$CanvasTransformer.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnCloseListener.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnClosedListener.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnOpenListener.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnOpenedListener.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$SavedState$1.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$SavedState.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\app\
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivity.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityBase.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityHelper$1.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityHelper.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\app\SlidingFragmentActivity.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\app\SlidingListActivity.class
+* build\intermediates\classes\debug\com\jeremyfeinstein\slidingmenu\lib\app\SlidingPreferenceActivity.class
+* build\intermediates\classes\release\
+* build\intermediates\classes\release\com\
+* build\intermediates\classes\release\com\jeremyfeinstein\
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\BuildConfig.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$1.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$2.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$3.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$4.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$5.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$6.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$1.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$2.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$OnPageChangeListener.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$SimpleOnPageChangeListener.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\CustomViewBehind.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\MenuInterface.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\R$attr.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\R$id.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\R$layout.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\R$styleable.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\R.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$1.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$2.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$CanvasTransformer.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnCloseListener.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnClosedListener.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnOpenListener.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnOpenedListener.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$SavedState$1.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$SavedState.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\app\
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivity.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityBase.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityHelper$1.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityHelper.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\app\SlidingFragmentActivity.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\app\SlidingListActivity.class
+* build\intermediates\classes\release\com\jeremyfeinstein\slidingmenu\lib\app\SlidingPreferenceActivity.class
+* build\intermediates\incremental\
+* build\intermediates\incremental\aidl\
+* build\intermediates\incremental\aidl\androidTest\
+* build\intermediates\incremental\aidl\androidTest\debug\
+* build\intermediates\incremental\aidl\androidTest\debug\dependency.store
+* build\intermediates\incremental\aidl\debug\
+* build\intermediates\incremental\aidl\debug\dependency.store
+* build\intermediates\incremental\aidl\release\
+* build\intermediates\incremental\aidl\release\dependency.store
+* build\intermediates\incremental\mergeAssets\
+* build\intermediates\incremental\mergeAssets\androidTest\
+* build\intermediates\incremental\mergeAssets\androidTest\debug\
+* build\intermediates\incremental\mergeAssets\androidTest\debug\merger.xml
+* build\intermediates\incremental\mergeAssets\debug\
+* build\intermediates\incremental\mergeAssets\debug\merger.xml
+* build\intermediates\incremental\mergeAssets\release\
+* build\intermediates\incremental\mergeAssets\release\merger.xml
+* build\intermediates\incremental\mergeResources\
+* build\intermediates\incremental\mergeResources\androidTest\
+* build\intermediates\incremental\mergeResources\androidTest\debug\
+* build\intermediates\incremental\mergeResources\androidTest\debug\merger.xml
+* build\intermediates\incremental\packageResources\
+* build\intermediates\incremental\packageResources\debug\
+* build\intermediates\incremental\packageResources\debug\merger.xml
+* build\intermediates\incremental\packageResources\release\
+* build\intermediates\incremental\packageResources\release\merger.xml
+* build\intermediates\manifests\
+* build\intermediates\manifests\androidTest\
+* build\intermediates\manifests\androidTest\debug\
+* build\intermediates\manifests\androidTest\debug\AndroidManifest.xml
+* build\intermediates\manifests\tmp\
+* build\intermediates\manifests\tmp\manifestMerger5733467995047969308.xml
+* build\intermediates\res\
+* build\intermediates\res\androidTest\
+* build\intermediates\res\androidTest\debug\
+* build\intermediates\res\androidTest\debug\layout\
+* build\intermediates\res\androidTest\debug\layout\slidingmenumain.xml
+* build\intermediates\res\androidTest\debug\values\
+* build\intermediates\res\androidTest\debug\values\values.xml
+* build\intermediates\resources\
+* build\intermediates\resources\resources-debug-androidTest.ap_
+* build\intermediates\symbols\
+* build\intermediates\symbols\androidTest\
+* build\intermediates\symbols\androidTest\debug\
+* build\intermediates\symbols\androidTest\debug\R.txt
+* build\outputs\
+* build\outputs\aar\
+* build\outputs\aar\library-debug.aar
+* build\outputs\aar\library-release.aar
+* build\tmp\
+* build\tmp\packageDebugJar\
+* build\tmp\packageDebugJar\MANIFEST.MF
+* build\tmp\packageReleaseJar\
+* build\tmp\packageReleaseJar\MANIFEST.MF
+* pom.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => slidingmenu\src\main\AndroidManifest.xml
+* res\ => slidingmenu\src\main\res\
+* src\ => slidingmenu\src\main\java\
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
