@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/asynchttplibs/asynchttplibs.iml" filepath="$PROJECT_DIR$/asynchttplibs/asynchttplibs.iml" />
       <module fileurl="file://$PROJECT_DIR$/photoView_library/photoView_library.iml" filepath="$PROJECT_DIR$/photoView_library/photoView_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rookielib/rookielib.iml" filepath="$PROJECT_DIR$/rookielib/rookielib.iml" />
       <module fileurl="file://$PROJECT_DIR$/slidingmenu/slidingmenu.iml" filepath="$PROJECT_DIR$/slidingmenu/slidingmenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/v7appcompat/v7appcompat.iml" filepath="$PROJECT_DIR$/v7appcompat/v7appcompat.iml" />
     </modules>
