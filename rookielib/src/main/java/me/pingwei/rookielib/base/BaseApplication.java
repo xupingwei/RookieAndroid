@@ -26,8 +26,13 @@ public abstract class BaseApplication extends LitePalApplication {
     @Override
     public void onCreate() {
         super.onCreate();
+        //项目默认值
         LitePalApplication.initialize(this);
         LoggerUtils.setDebug(false);
+
+        //项目初始化
+        init();
+
         FileUtil.creatDirection(Config.getProjectName());
         Remember.init(getApplicationContext(), Config.getProjectName() + ".share");
         LoggerUtils.out("项目缓存文件名：" + Config.getProjectName());
@@ -54,7 +59,7 @@ public abstract class BaseApplication extends LitePalApplication {
                 .writeDebugLogs() // Remove for releaseapp
                 .build();//开始构建
         ImageLoader.getInstance().init(config);
-        init();
+
 
     }
 
