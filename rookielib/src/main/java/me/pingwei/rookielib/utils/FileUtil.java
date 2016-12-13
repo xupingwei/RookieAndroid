@@ -30,8 +30,7 @@ import me.pingwei.rookielib.config.Config;
  */
 public class FileUtil {
 
-    public static String projectPath = "/" + Config.getProjectName() + "/";
-    public static String sdCardPath = StorageHelper.getSDCardPath();
+    public static String projectPath = StorageHelper.getSDCardPath() + "/" + Config.getProjectName() + "/";
 
     /**
      * 创建文件夹
@@ -40,14 +39,24 @@ public class FileUtil {
      */
     public static void creatDirection(String dirPath) {
 
-        File projectFile = new File(sdCardPath + projectPath);
+        File projectFile = new File(projectPath + dirPath);
         if (!projectFile.exists()) {
             projectFile.mkdir();
         }
 
-        File file = new File(sdCardPath + dirPath);
+        File file = new File(dirPath);
         if (!file.exists()) {
             file.mkdir();
+        }
+    }
+
+    /**
+     * 创建项目文件夹
+     */
+    public static void createProjectDirection() {
+        File projectFile = new File(projectPath);
+        if (!projectFile.exists()) {
+            projectFile.mkdir();
         }
     }
 
@@ -57,7 +66,7 @@ public class FileUtil {
      * @param filePath
      */
     public static File getFile(String filePath) {
-        File file = new File(sdCardPath + filePath);
+        File file = new File(filePath);
         if (!file.exists()) {
             try {
                 file.createNewFile();
@@ -77,7 +86,7 @@ public class FileUtil {
      */
     public static String getDirAbsolutPath(String dirName) {
 
-        File file = new File(sdCardPath + dirName);
+        File file = new File(projectPath + dirName);
         if (!file.exists()) {
             file.mkdir();
         }

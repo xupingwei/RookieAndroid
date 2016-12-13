@@ -8,8 +8,8 @@ public class Config {
     private static String mProjectName = "Rookie";
 
     //图片缓存文件夹
-    private static String cacheImage = mProjectName + ".cache/";
-    private static String cacheLog = mProjectName + "log/";
+    private static String cacheImage =  ".cache/";
+    private static String cacheLog =  "log/";
 
     public static final String LOGGER_FILE_NAME = "work.txt";
 
