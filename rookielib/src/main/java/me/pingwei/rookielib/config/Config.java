@@ -11,6 +11,12 @@ public class Config {
     private static String cacheImage = mProjectName + ".cache/";
     private static String cacheLog = mProjectName + "log/";
 
+    public static final String LOGGER_FILE_NAME = "work.txt";
+
+    public static String getCacheLog() {
+        return cacheLog;
+    }
+
     /**
      * 返回项目名称
      *

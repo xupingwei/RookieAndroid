@@ -8,10 +8,6 @@ import android.os.Looper;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.yunbix.yunbixlib.config.GlobalInfo;
-import com.yunbix.yunbixlib.utils.FileUtil;
-import com.yunbix.yunbixlib.utils.StorageHelper;
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
@@ -24,12 +20,16 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+import me.pingwei.rookielib.config.Config;
+import me.pingwei.rookielib.utils.FileUtil;
+import me.pingwei.rookielib.utils.StorageHelper;
+
 
 /**
  * Created by xupingwei on 2015/5/12.
  */
 public class CrachHandler implements Thread.UncaughtExceptionHandler {
-    private static String loggerName = GlobalInfo.LOGGER_FILE_NAME;
+    private static String loggerName = Config.LOGGER_FILE_NAME;
     private static CrachHandler crachHandler = new CrachHandler();
     private static Context mContext;
     private DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -57,8 +57,8 @@ public class CrachHandler implements Thread.UncaughtExceptionHandler {
      * @param context
      */
     public void init(Context context) {
-        FileUtil.creatDirection(GlobalInfo.LOGGER_FILE_PATH);
-        file = FileUtil.getFile(GlobalInfo.LOGGER_FILE_PATH + loggerName);
+        FileUtil.creatDirection(Config.getCacheLog());
+        file = FileUtil.getFile(Config.getCacheLog() + loggerName);
         loggerPath = file.getAbsolutePath();
         mContext = context;
         //获取系统默认的UncaughtException处理器
