@@ -25,8 +25,13 @@ import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.List;
 
+import javax.net.ssl.SSLContext;
+
+import cz.msebera.android.httpclient.conn.ssl.SSLSocketFactory;
+
 import cz.msebera.android.httpclient.Header;
 import cz.msebera.android.httpclient.HttpEntity;
+import me.pingwei.asynchttplibs.ssl.SSLContextUtil;
 
 
 /**
@@ -40,7 +45,7 @@ public class RookieHttpUtils {
     /**
      * BASE_URL如何设置
      */
-    private static final String BASE_URL = RookieRequestConfig.BASE_URL;
+    private static final String URL = RookieRequestConfig.BASE_URL;
     private static AsyncHttpClient httpClient = new AsyncHttpClient();
     private static final String FAILED = "啊哦，网络好像不给力\n\t请稍后再试~";
     private static final String NETWORK_FAILED = "啊哦，网络好像不给力\n\t请稍后再试~";
@@ -53,6 +58,12 @@ public class RookieHttpUtils {
     static {
         httpClient.setTimeout(TIME_OUT);
         httpClient.setConnectTimeout(CONNECT_TIME_OUT);
+        if (URL.contains("https:")) {
+            SSLContext sslContext = SSLContextUtil.getDefaultSLLContext();
+            SSLSocketFactory sslSocketFactory = new SSLSocketFactory(sslContext);
+            sslSocketFactory.setHostnameVerifier(SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
+            httpClient.setSSLSocketFactory(sslSocketFactory);
+        }
     }
 
     /**
@@ -83,7 +94,7 @@ public class RookieHttpUtils {
     public static <W> void executePost(Context context, final String subUrl,
                                        final W clazz, final IHttpDoneListener listener) {
         final Class _aClazz = BaseEntity.class;
-        final String requestUrl = BASE_URL + subUrl;
+        final String requestUrl = URL + subUrl;
         RequestParams params = getParams(clazz);
         httpClient.post(context, requestUrl, params, new TextHttpResponseHandler() {
 
@@ -111,7 +122,7 @@ public class RookieHttpUtils {
      */
     public static <W> void executeGet(Context context, final String subUrl,
                                       final W clazz, final IHttpDoneListener listener) {
-        final String requestUrl = BASE_URL + subUrl;
+        final String requestUrl = URL + subUrl;
         httpClient.get(context, requestUrl, new TextHttpResponseHandler() {
 
             @Override
@@ -140,7 +151,7 @@ public class RookieHttpUtils {
                                       final W clazz, final IHttpDoneListener listener) {
         ByteArrayEntity arrayEntity = getMessagePackParams(clazz);
         String contentType = "Content-Type";
-        final String requestUrl = BASE_URL + subUrl;
+        final String requestUrl = URL + subUrl;
         httpClient.put(context, requestUrl, (HttpEntity) arrayEntity, contentType, new AsyncHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
@@ -167,7 +178,7 @@ public class RookieHttpUtils {
      * @param listener
      */
     public static void executeDownloadFile(Context context, final String subUrl, final IHttpDoneListener listener) {
-        final String requestUrl = BASE_URL + subUrl;
+        final String requestUrl = URL + subUrl;
         httpClient.get(context, requestUrl, new FileAsyncHttpResponseHandler(context) {
             @Override
             public void onFailure(int statusCode, Header[] headers, Throwable throwable, File file) {
@@ -193,7 +204,7 @@ public class RookieHttpUtils {
      */
     public static void executeUploadFile(Context context, final Class clazz, HashMap hashMap, final String subUrl,
                                          final IHttpDoneListener listener) {
-        final String requestUrl = BASE_URL + subUrl;
+        final String requestUrl = URL + subUrl;
         RequestParams params = new RequestParams(hashMap);
         httpClient.post(context, requestUrl, params, new TextHttpResponseHandler() {
             @Override

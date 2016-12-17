@@ -1,4 +1,4 @@
-package me.pingwei.rookielib.utils;
+package me.pingwei.asynchttplibs.ssl;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
